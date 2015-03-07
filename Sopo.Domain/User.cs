@@ -12,7 +12,6 @@ namespace Sopo.Domain {
 		//[DataType(DataType.EmailAddress, ErrorMessage = "Incorrect email format!")]
 		public string Email { get; set; }
 		public string Password { get; set; }
-		public bool IsDeleted { get; set; }
 
 		public ICollection<User> Friend { get; set; }
 		//public virtual ICollection<Friend> Friends { get; set; }

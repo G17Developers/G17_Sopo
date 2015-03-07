@@ -6,9 +6,6 @@ using System.Text;
 
 namespace Sopo.Domain {
 	public class Log : BaseRecord {
-		[Key]
-		public int ID { get; set; }
-
 		[Required]
 		public DateTime Date { get; set; }
 
